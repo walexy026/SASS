@@ -5,13 +5,16 @@ body {
 }
 nav {
     display: flex;
+    justify-content: space-between;
     h1 {
         color: red;
     }
     ul {
         list-style: none;
         display: flex;
-        justify-content: space-between;
+        li{
+            margin-right: 100px;
+        }
     }
 
 }
@@ -21,6 +24,8 @@ h1 {
 }
 .container {
     display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
     h1{
         color: red;
     }
